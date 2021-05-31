@@ -2,7 +2,7 @@ task:
     name: Sync test
     timeout_in: 120m
     container:
-      image: apon77/aosp:latest
+      image: apon77/aosp:cirrus
       cpu: 2
       memory: 8G
     sync_script:
