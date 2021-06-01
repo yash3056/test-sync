@@ -8,3 +8,5 @@ task:
     sync_script:
       - env
       - bash sync_rom.sh
+      - bash intialize.sh
+      - bash sepolicy.sh
